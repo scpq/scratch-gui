@@ -235,13 +235,13 @@ export default [
 
     },
     {
-        name: (
-            <FormattedMessage
-                defaultMessage="Test"
-                description="Name for the 'Test' extension"
-                id="gui.extension.test.name"
+		name: (
+			<FormattedMessage
+				defaultMessage="Test"
+				description="Name for the 'Test' extension"
+				id="gui.extension.test.name"
             />
-        ),
+		),
 		extensionId: 'test',
 		collaborator: 'TEST',
         description: (
