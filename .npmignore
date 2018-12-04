@@ -8,7 +8,7 @@ npm-*
 # Testing
 /.nyc_output
 /coverage
-/test
+# /test
 
 # Build
 /.opt-in
