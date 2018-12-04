@@ -233,5 +233,25 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
 
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Test"
+                description="Name for the 'Test' extension"
+                id="gui.extension.test.name"
+            />
+        ),
+        extensionId: 'test',
+	    collaborator: 'TEST',
+        description: (
+            <FormattedMessage
+                defaultMessage="Test"
+                description="Description for the 'test' extension"
+                id="gui.extension.test.description"
+            />
+        ),
+        featured: true,
+	    internetConnectionRequired: true
     }
 ];
