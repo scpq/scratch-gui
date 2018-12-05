@@ -253,5 +253,22 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="extensions"
+                description="Name for the extensions"
+                id="gui.extension.extensions.name"
+            />
+        ),
+        description: (
+            <FormattedMessage
+                defaultMessage="extensions"
+                description="Description for the extensions"
+                id="gui.extension.extensions.description"
+            />
+        ),
+        featured: true
     }
 ];
