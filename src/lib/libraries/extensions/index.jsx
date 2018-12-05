@@ -245,7 +245,7 @@ export default [
 	extensionId: 'test',
         description: (
             <FormattedMessage
-                defaultMessage="extensions"
+                defaultMessage="Test"
                 description="Description for the 'test' extensions"
                 id="gui.extension.test.description"
             />
