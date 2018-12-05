@@ -242,7 +242,8 @@ export default [
                 id="gui.extension.test.name"
             />
         ),
-	extensionId: 'test',
+		extensionId: 'test',
+		collaborator: 'TEST',
         description: (
             <FormattedMessage
                 defaultMessage="Test"
@@ -251,6 +252,6 @@ export default [
             />
         ),
         featured: true,
- 	internetConnectionRequired: true
+		internetConnectionRequired: true
     }
 ];
